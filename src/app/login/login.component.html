@@ -1,0 +1,11 @@
+<main>
+    <form [formGroup]="loginForm">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Enter your username" formControlName="username">
+        <label for="password">Password</label>
+        <input id="password" type="text" placeholder="Enter your password" formControlName="username">
+        <div></div>
+        <button (click)="loginUser"> Login</button>
+    </form>
+    <p>Failed to sign in</p>
+</main>
